@@ -3,10 +3,6 @@ function solution(N) {
     zeroCount = 0,
     result = 0;
 
-  if (N < 0 || typeof N !== "number") {
-    throw new Error("You must use a positive integer number");
-  }
-
   for (let digit of binary) {
     if (digit === "0") {
       zeroCount += 1;
