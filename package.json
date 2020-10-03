@@ -1,0 +1,15 @@
+{
+  "name": "codility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binary.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Felipe Cesar <felipecesr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
