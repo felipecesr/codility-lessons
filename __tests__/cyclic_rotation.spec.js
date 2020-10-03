@@ -1,4 +1,4 @@
-const solution = require("../cyclic_rotation");
+const solution = require("../src/cyclic_rotation");
 
 test("should return correct rotations", () => {
   expect(solution([3, 8, 9, 7, 6], 3)).toEqual([9, 7, 6, 3, 8]);
