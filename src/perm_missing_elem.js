@@ -1,6 +1,8 @@
 /**
+ * Returns the missing element in a given permutation.
  *
- * @param {array} A
+ * @param {number[]}
+ * @returns {number}
  */
 function solution(A) {
   const size = A.length;
